@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect} from "react";
 import { useSelector, useDispatch } from "react-redux";
 import Cards from "../cardComponent";
 import getUsers from "../../redux/action/users";
-import { Link } from "react-router-dom";
+
 
 import style from "./userComponent.module.css";
 const Users = () => {
