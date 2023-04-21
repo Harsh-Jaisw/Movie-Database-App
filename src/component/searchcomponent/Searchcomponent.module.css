@@ -1,0 +1,55 @@
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+     /* margin-left: 6rem; */
+     margin-top:2rem;
+     cursor:pointer;
+}
+.card :hover{
+    opacity:.9
+}
+.input{
+    border-radius: 5rem;
+    width:20rem;
+    padding-left: 15px;
+    height:2.5rem;
+    /* border:none; */
+    outline: none;
+}
+.button{
+    position:relative;
+    right:2.3rem;
+    border-radius: 5rem;
+    background: none;
+    border:none;
+    outline: none;
+    font-size: larger;
+}
+.searchWrapper{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 2rem 0 0
+}
+@media screen and (min-width: 2000px) {
+    .searchWrapper{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .searchWrapper{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 650px) {
+    .searchWrapper{
+        display: flex;
+        
+    }
+}
