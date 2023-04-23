@@ -1,9 +1,11 @@
 import Card from "react-bootstrap/Card";
 import "bootstrap/dist/css/bootstrap.min.css";
 function Cards({ user }) {
+ 
+  
   return (
     <Card
-      style={{ width: "20rem", height: "42rem", boxShadow: "7px 5px #e0e1dd " }}
+      style={{ width: "20rem", height: "42rem",color:"white",background:"black"}}
     >
       <Card.Img
         variant="top"

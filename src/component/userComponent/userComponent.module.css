@@ -1,14 +1,15 @@
-.card{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 60px;
-    align-items: center;
-    justify-content: center;
-     /* margin-left: 6rem; */
-     margin-top:2rem;
-     cursor:pointer;
-    
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
 }
-.card :hover{
-    opacity:.9
+.card :hover {
+  opacity: 0.9;
+  transition: 0.1s ease-in smooth;
 }
